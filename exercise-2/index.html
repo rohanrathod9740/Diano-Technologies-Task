@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 2 - Worker Progress Report</title>
+  <link rel="stylesheet" href="../shared/document.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="document-body worker-document">
+  <main class="document-shell">
+    <section class="dataset-bar" aria-label="Dataset selector">
+      <div>
+        <p class="dataset-bar__title">Exercise 2</p>
+        <p class="dataset-bar__meta">Worker Progress Report - Active dataset: <strong data-dataset-name></strong></p>
+      </div>
+      <nav class="dataset-links" data-dataset-links></nav>
+      <button type="button" class="print-control" onclick="window.print()">Print / Save PDF</button>
+    </section>
+
+    <section id="pages" class="pages" aria-label="Rendered document pages"></section>
+  </main>
+
+  <script src="../shared/document.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+.worker-document .doc-header__title-wrap {
+  max-width: 2.5in;
+}
+
+.worker-document .doc-header__logo {
+  width: 2.15in;
+}
+
+.worker-document .doc-header__title {
+  font-size: 13pt;
+  margin-bottom: 0.11in;
+}
+
+.worker-document .page__body {
+  height: 10.85in;
+}
+
+.worker-document .form-section-title {
+  margin-bottom: 0.09in;
+}
+
+.worker-document .option-card__legend {
+  margin-bottom: 0.08in;
+}
+
+.worker-document .return-status-grid {
+  grid-template-columns: 1.15fr 1fr 1.7fr;
+}
+
+.worker-document .work-status-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.worker-document .work-status-grid .option-item:last-child {
+  grid-column: 1 / span 3;
+}
+
+.worker-document .recovery-grid,
+.worker-document .treatment-grid,
+.worker-document .medication-grid,
+.worker-document .exercise-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.worker-document .option-with-field {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.worker-document .option-with-field .line-field {
+  margin-left: auto;
+}
+
+.worker-document .other-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.worker-document .other-row .line-field {
+  flex: 1 1 2.8in;
+}
+
+.worker-document .pain-scale__grid .checkbox.is-checked {
+  background: linear-gradient(180deg, #f8fbff 0%, #dce9fa 100%);
+}
+
+.worker-document .text-box--recovery {
+  min-height: 0.85in;
+}
+
+.worker-document .text-box--concerns {
+  min-height: 0.85in;
+}
+
+.worker-document .text-box--exercise-list {
+  min-height: 1.34in;
+}

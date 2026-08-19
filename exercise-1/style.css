@@ -1,0 +1,55 @@
+.expense-document .doc-header__title-wrap {
+  max-width: 2.42in;
+}
+
+.expense-document .doc-header__logo {
+  width: 1.88in;
+}
+
+.expense-document .doc-header__title {
+  font-size: 12.5pt;
+  margin-bottom: 0.12in;
+}
+
+.expense-document .intro-copy {
+  margin-bottom: 0.16in;
+}
+
+.expense-document .section-block {
+  margin-bottom: 0.14in;
+}
+
+.expense-document .section-title {
+  font-size: 13pt;
+  margin-bottom: 0.07in;
+}
+
+.expense-document .section-note {
+  margin-bottom: 0.08in;
+  font-size: 11pt;
+  line-height: 1.23;
+}
+
+.expense-document .document-table {
+  font-size: 8.2pt;
+  line-height: 1.18;
+  margin-bottom: 0.02in;
+}
+
+.expense-document .document-table th,
+.expense-document .document-table td {
+  padding: 0.055in 0.045in;
+}
+
+.expense-document .document-table th {
+  padding-top: 0.045in;
+  padding-bottom: 0.06in;
+}
+
+.expense-document .acknowledgement {
+  font-size: 10.9pt;
+}
+
+.expense-document .acknowledgement .checkbox {
+  margin-top: 2px;
+}
